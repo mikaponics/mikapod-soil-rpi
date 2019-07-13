@@ -1,0 +1,12 @@
+site_name: Mikapod Soil (Raspberry Pi)
+nav:
+    - Home: index.md
+    - Architecture: architecture.md
+    - Hardware: parts.md
+    - Installation: installation.md
+    - Nameserver: nameserver.md
+    - Storage Service: storage.md
+    - Instrumentats Service: instrumentation.md
+    - Logging Service: logging.md
+    - Remote Service: remote.md
+theme: readthedocs

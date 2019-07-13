@@ -7,7 +7,7 @@ Mikapod Soil is an open-source application software used by IoT devices to track
 
 ## Features
 
-* Supports collection of instrument time-series data from 6 different sensors:
+* Supports collection of instrument time-series data from 6 different sensors via [Mikapod Soil (Arduino) device](https://github.com/mikaponics/mikapod-soil-arduino) pulling of data:
     - Temperature
     - Humidity
     - Pressure

@@ -1,4 +1,4 @@
-# Mikapod Soil
+# Mikapod Soil (Raspberry Pi)
 [![Documentation Status](https://readthedocs.org/projects/mikapod-soil-rpi/badge/?version=latest)](https://mikapod-soil-rpi.readthedocs.io/en/latest/?badge=latest)
 
 ## Introduction

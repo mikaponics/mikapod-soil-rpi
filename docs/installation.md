@@ -150,27 +150,4 @@ Finally we are ready to install and setup our application!
         $ git clone https://github.com/mikaponics/mikapod-soil-rpi.git
         $ cd mikapod-soil-rpi
 
-3. You are ready to install the services. All services run as independent applications and they all communicate to each other using `Pyro4` RPC library. Before we setup and run our applications we need to setup the **RPC Nameservice**.
-
-## Setup Nameserver
-We are using the ``Pyro4`` library which will connect all the applications. Follow these instructions to begin setting up the RPC nameserver.
-
-1. Run the following.
-
-        $ cd ~/mikapod-soil
-
-2. Setup our virtual environment
-
-        $ virtualenv -p python3.6 env
-
-3. Now lets activate virtual environment
-
-        $ source env/bin/activate
-
-4. Install the ``Python`` dependencies.
-
-        $(env) pip install Pyro4                         # Distrubted objects library.
-
-5. Run the following command and keep the console window open. We are running this code to confirm our code works
-
-        $(env) python -m Pyro4.naming
+3. You are ready to install the services. All services run as independent applications and they all communicate to each other using `Pyro4` RPC library. Before we setup and run our applications we need to setup the **RPC Nameservice** - start by setting up the nameserver. You are now ready to go to each unique application to setup and run - please read the next section titled **Services**.

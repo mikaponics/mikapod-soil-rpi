@@ -5,7 +5,7 @@ The ``storage_service.py`` application is responsible for providing an interface
 
 1. Setup our virtual environment
 
-        $ cd ~/mikapod-soil/src/services/storage
+        $ cd ~/mikapod-soil-rpi/src/services/storage
         $ virtualenv -p python3.6 env
 
 2. Now lets activate virtual environment

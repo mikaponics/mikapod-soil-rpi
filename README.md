@@ -1,5 +1,5 @@
 # Mikapod Soil
-[![Documentation Status](https://readthedocs.org/projects/mikapod-soil/badge/?version=latest)](https://mikapod-soil.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/mikapod-soil-rpi/badge/?version=latest)](https://mikapod-soil-rpi.readthedocs.io/en/latest/?badge=latest)
 
 ## Introduction
 

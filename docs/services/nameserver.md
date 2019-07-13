@@ -1,5 +1,5 @@
 # Overview
-We are using the ``Pyro4`` library which will connect all the applications.
+We are using the [``Pyro4``](https://github.com/irmen/Pyro4) library which will connect all the applications.
 
 # Installation
 Follow these instructions to begin setting up the RPC nameserver.

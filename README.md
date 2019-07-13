@@ -3,11 +3,11 @@
 
 ## Introduction
 
-Mikapod Soil is an open-source application software used by IoT devices to track time-series data of soil-based plants and upload the data to [Mikaponics.com](https://mikaponics.com) where it will be analyed and processed for customers so they can know the health and well-being of their plants.
+Mikapod Soil (Raspberry Pi) is an open-source embedded application which pulls time-series data from the [Mikapod Soil (Arduino) embedded application](https://github.com/mikaponics/mikapod-soil-arduino) and uploads the time-series data to the [Mikaponics API web-service](https://github.com/mikaponics/mikaponics-back) where the data will be analyed and processed for customers so they can know the health and well-being of their plants.
 
 ## Features
 
-* Supports collection of instrument time-series data from 6 different sensors via [Mikapod Soil (Arduino) device](https://github.com/mikaponics/mikapod-soil-arduino) pulling of data:
+* Supports collection of instrument time-series data from 6 different sensors via [Mikapod Soil (Arduino) device](https://github.com/mikaponics/mikapod-soil-arduino):
     - Temperature
     - Humidity
     - Pressure

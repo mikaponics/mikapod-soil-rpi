@@ -26,6 +26,23 @@ The purpose of this project is to provide a simple device which users can config
 
 4. Every ``service`` automatically boots at startup
 
+# What services are there available?
+
+## Nameserver
+We are using the [``Pyro4``](https://github.com/irmen/Pyro4) library which will connect all the applications.
+
+## Storage
+The ``storage_service.py`` application is responsible for providing an interface for all applications to access and GET/SET key-value paired data in a local database.
+
+## Instruments
+The ``instrument_service.py`` application is responsible for providing service for polling the instrumentation in the Arduino sensor's and sends the data to the storage application through ``rpc``.
+
+## Logging
+The ``logging_service.py`` application is responsible for maintaining a runtime clock with an interval of every minute to poll our time-series data from our instruments and save them to our local storage.
+
+## Remote
+The ``remote_service.py`` application is responsible for interfacing with [Mikaponics API Web-Service](https://github.com/mikaponics/mikaponics-back).
+
 # What Raspberry Pi devices does this code work on?
 
 The following devices were tested and confirmed working:

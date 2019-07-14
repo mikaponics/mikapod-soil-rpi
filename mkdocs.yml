@@ -3,11 +3,17 @@ nav:
     - Home: index.md
     - Architecture: architecture.md
     - Hardware: parts.md
-    - Installation: installation.md
-    - Services:
-        - Nameserver Service: services/nameserver.md
-        - Storage Service: services/storage.md
-        - Instrumentats Service: services/instrumentation.md
-        - Logging Service: services/logging.md
-        - Remote Service: services/remote.md
+    - Installation:
+        - Device: installation/device.md
+        - Nameserver: installation/nameserver.md
+        - Storage: installation/storage.md
+        - Instruments: installation/instruments.md
+        - Logging: installation/logging.md
+        - Remote: installation/remote.md
+    - Usage:
+        - Nameserver: usage/nameserver.md
+        - Storage: usage/storage.md
+        - Instruments: usage/instruments.md
+        - Logging: usage/logging.md
+        - Remote: usage/remote.md
 theme: readthedocs

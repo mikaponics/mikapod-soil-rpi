@@ -17,17 +17,17 @@ This micro-service is found in the ``mikapod/instrumentation_service.py`` file a
 
 1. While being logged in as ``pi`` run the following:
 
-        $ sudo vi /etc/systemd/system/mikapod_instrumentation.service
+        $ sudo vi /etc/systemd/system/mikapod_instruments.service
 
 2. Copy and paste the following contents.
 
         [Unit]
-        Description=Mikapod Instrumentation Interface Daemon
+        Description=Mikapod Instruments Interface Daemon
         After=multi-user.target
 
         [Service]
         Type=idle
-        ExecStart=/home/pi/mikapod-py/env/bin/python3.5 /home/pi/mikapod-py/mikapod/instrumentation_service.py
+        ExecStart=/home/pi/mikapod-soil-rpi/env/bin/python3.5 /home/pi/mikapod-soil-rpi/src/instrument/instrument_service.py
         Restart=on-failure
         KillSignal=SIGTERM
 
@@ -36,12 +36,12 @@ This micro-service is found in the ``mikapod/instrumentation_service.py`` file a
 
 3. We can now start the Gunicorn service we created and enable it so that it starts at boot:
 
-        $ sudo systemctl start mikapod_instrumentation
-        $ sudo systemctl enable mikapod_instrumentation
+        $ sudo systemctl start mikapod_instruments
+        $ sudo systemctl enable mikapod_instruments
 
 4. Confirm our service is running.
 
-        $ sudo systemctl status mikapod_instrumentation.service
+        $ sudo systemctl status mikapod_instruments.service
 
 5. If the service is working correctly you should see something like this at the bottom:
 
@@ -51,4 +51,4 @@ This micro-service is found in the ``mikapod/instrumentation_service.py`` file a
 
 7. If you see any problems, run the following service to see what is wrong. More information can be found in [this article](https://unix.stackexchange.com/a/225407).
 
-        $ sudo journalctl -u mikapod_instrumentation
+        $ sudo journalctl -u mikapod_instruments

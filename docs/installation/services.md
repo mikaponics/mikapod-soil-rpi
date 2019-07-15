@@ -3,7 +3,7 @@ Follow these instructions to begin setting up the RPC nameserver.
 
 1. Run the following.
 
-        $ cd ~/mikapod-soil
+        $ cd ~/mikapod-soil-rpi
 
 2. Setup our virtual environment
 

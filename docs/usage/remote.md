@@ -27,7 +27,7 @@ This micro-service is found in the ``mikapod/remote_service.py`` file and is res
 
         [Service]
         Type=idle
-        ExecStart=/home/pi/mikapod-py/env/bin/python3.5 /home/pi/mikapod-py/mikapod/remote_service.py
+        ExecStart=/home/pi/mikapod-soil-rpi/env/bin/python3.5 /home/pi/mikapod-soil-rpi/src/remote/remote_service.py
         Restart=on-failure
         KillSignal=SIGTERM
 

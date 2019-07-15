@@ -26,7 +26,7 @@
 
         [Service]
         Type=idle
-        ExecStart=/home/pi/mikapod-py/env/bin/python3.5 /home/pi/mikapod-py/mikapod/storage_service.py
+        ExecStart=/home/pi/mikapod-soil-rpi/env/bin/python3.5 /home/pi/mikapod-soil-rpi/src/storage/storage_service.py
         Restart=on-failure
         KillSignal=SIGTERM
 

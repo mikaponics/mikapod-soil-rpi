@@ -20,7 +20,7 @@ The following set of instructions will show how to have **RPC Nameserver** appli
         [Service]
         Type=idle
         User=pi
-        ExecStart=/home/pi/mikapod-py/scripts/nameserver.sh
+        ExecStart=/home/pi/mikapod-soil-rpi/scripts/nameserver.sh
         Restart=on-failure
         KillSignal=SIGTERM
 

@@ -193,3 +193,6 @@ private_notes.txt
 
 # Mkdocs build should not be saved.
 site/
+
+# Do not save wifi password.
+src/cmd/wpa_supplicant.conf

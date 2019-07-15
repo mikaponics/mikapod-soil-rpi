@@ -14,7 +14,7 @@ The following set of instructions will show how to have **RPC Nameserver** appli
 2. Copy and paste the following contents.
 
         [Unit]
-        Description=Mikapod Storage Daemon
+        Description=Mikapod Nameserver Daemon
         After=multi-user.target
 
         [Service]

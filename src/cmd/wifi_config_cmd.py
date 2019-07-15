@@ -84,6 +84,7 @@ class WifiConfigCommand(object):
         out, err = p.communicate()
         print(getDT(), '| WIFI CONFIG | OUT: ' + str(out))
         print(getDT(), '| WIFI CONFIG | ERR: ' + str(err))
+        return True
 
     def runOnMainLoop(self, args):
         """
@@ -99,14 +100,10 @@ class WifiConfigCommand(object):
             country = args[1]
             ssid = args[2]
             ps = args[3]
-            self.update_wifi(country, ssid, ps)
+            return self.update_wifi(country, ssid, ps)
         except ServiceExit:
             print(getDT(), "| WIFI CONFIG | Gracefully shutting down.")
         print(getDT(), "| WIFI CONFIG | Exiting main program.")
-
-    def runOperationLoop(self):
-        pass
-
 
 if __name__ == "__main__":
     """

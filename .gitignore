@@ -196,3 +196,4 @@ site/
 
 # Do not save wifi password.
 src/cmd/wpa_supplicant.conf
+src/serial/wpa_supplicant.conf

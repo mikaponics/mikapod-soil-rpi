@@ -27,7 +27,7 @@ This micro-service is found in the ``mikapod/instrumentation_service.py`` file a
 
         [Service]
         Type=idle
-        ExecStart=/home/pi/mikapod-soil-rpi/scripts/instrument.sh
+        ExecStart=/home/pi/mikapod-soil-rpi/scripts/instruments.sh
         Restart=on-failure
         KillSignal=SIGTERM
 
@@ -52,3 +52,7 @@ This micro-service is found in the ``mikapod/instrumentation_service.py`` file a
 7. If you see any problems, run the following service to see what is wrong. More information can be found in [this article](https://unix.stackexchange.com/a/225407).
 
         $ sudo journalctl -u mikapod_instruments
+
+8. To reload the latest modifications to systemctl file.
+
+        $ systemctl daemon-reload

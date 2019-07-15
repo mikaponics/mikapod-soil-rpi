@@ -14,14 +14,6 @@ load_dotenv(verbose=True)
 # APPLICATION CONFIGURATION #
 #---------------------------#
 
-"""
-Variables used for configuring the how the serial USB communication will be
-handled with the Arduino device.
-"""
-SERIAL_PORT = os.getenv("SERIAL_PORT")
-SERIAL_BAUD = int(os.getenv("SERIAL_BAUD"))
-SERIAL_TIMEOUT = int(os.getenv("SERIAL_TIMEOUT"))
-
 
 """
 Variable controls what timezone formatting we must apply to our UTC datetimes.

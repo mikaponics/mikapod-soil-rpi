@@ -32,7 +32,7 @@ This micro-service is found in the ``mikapod/logging_service.py`` file and is re
 
         [Service]
         Type=idle
-        ExecStart=/home/pi/mikapod-soil-rpi/env/bin/python3.5 /home/pi/mikapod-soil-rpi/src/logging/logging_service.py
+        ExecStart=/home/pi/mikapod-soil-rpi/scripts/logging.sh
         Restart=on-failure
         KillSignal=SIGTERM
 

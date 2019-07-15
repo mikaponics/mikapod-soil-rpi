@@ -27,7 +27,7 @@ This micro-service is found in the ``mikapod/instrumentation_service.py`` file a
 
         [Service]
         Type=idle
-        ExecStart=/home/pi/mikapod-soil-rpi/env/bin/python3.5 /home/pi/mikapod-soil-rpi/src/instrument/instrument_service.py
+        ExecStart=/home/pi/mikapod-soil-rpi/scripts/instrument.sh
         Restart=on-failure
         KillSignal=SIGTERM
 

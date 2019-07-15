@@ -80,11 +80,12 @@ The nameserver must always run in the background, as a result:
         ## APPLICATION CONFIGURATION
         #
 
-        SERIAL_PORT=/dev/ttyUSB0
-        SERIAL_BAUD=115200
+        SERIAL_PORT=/dev/ttyACM0
+        SERIAL_BAUD=9600
         SERIAL_TIMEOUT=60
         LOCAL_TIMEZONE_NAME=America/Toronto
-
+        TIME_STEP_IN_MINUTES=1
+        TIME_STEP=00:01:00
 
 5. Please change the contents of the ``.env`` file to match the configuration found in your systen.
 

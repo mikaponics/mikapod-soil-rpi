@@ -45,7 +45,7 @@ This micro-service is found in the ``mikapod/instrumentation_service.py`` file a
 
 5. If the service is working correctly you should see something like this at the bottom:
 
-        raspberrypi systemd[1]: Started Mikapod Instrumentation Interface Daemon.
+        raspberrypi systemd[1]: Started Mikapod Instrumentats Interface Daemon.
 
 6. Congradulations, you have setup instrumentation micro-service! All other micro-services can now poll the latest data from the instruments we have attached.
 

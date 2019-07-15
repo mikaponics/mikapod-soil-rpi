@@ -27,7 +27,7 @@ This micro-service is found in the ``mikapod/remote_service.py`` file and is res
 
         [Service]
         Type=idle
-        ExecStart=/home/pi/mikapod-soil-rpi/env/bin/python3.5 /home/pi/mikapod-soil-rpi/src/remote/remote_service.py
+        ExecStart=/home/pi/mikapod-soil-rpi/scripts/remote.sh
         Restart=on-failure
         KillSignal=SIGTERM
 
@@ -45,7 +45,7 @@ This micro-service is found in the ``mikapod/remote_service.py`` file and is res
 
 5. If the service is working correctly you should see something like this at the bottom:
 
-        raspberrypi systemd[1]: Started Mikapod Data Logging Daemon.
+        raspberrypi systemd[1]: Started Mikapod Remote Daemon.
 
 6. Congradulations, you have setup the remote micro-service! This service will be polling the latest local persistent storage data and submit it to the remote API web-service.
 

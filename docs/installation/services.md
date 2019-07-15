@@ -165,3 +165,33 @@ The nameserver must always run in the background, as a result:
 
 
 5. Please change the contents of the ``.env`` file to match the configuration found in your systen.
+
+
+# Serial Communication
+
+1. Setup our virtual environment
+
+        $ virtualenv -p python3.6 env
+
+2. Now lets activate virtual environment
+
+    $ source env/bin/activate
+
+3. Install the ``Python`` dependencies.
+
+        $(env) pip install pytz                          # World Timezone Definitions
+        $(env) pip install python-dotenv                 # Environment variable loader.
+        $(env) pip install Pyro4                         # Distrubted objects library.
+        $(env) pip install pyserial                      # Serial USB Communication library for Python.
+
+4. In this directorym create a file called ``.env`` and populate it with the following content:
+
+        ## APPLICATION CONFIGURATION
+        #
+
+        SERIAL_PORT=/dev/ttyS0
+        SERIAL_BAUD=9600
+        SERIAL_TIMEOUT=60
+        LOCAL_TIMEZONE_NAME=America/Toronto
+
+5. Please change the contents of the ``.env`` file to match the configuration found in your systen.

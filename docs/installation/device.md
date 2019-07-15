@@ -107,13 +107,13 @@ We want to support ``python3``.
 2. Download and unzip ``Python3``.
 
         $ cd /usr/src
-        $ sudo wget https://www.python.org/ftp/python/3.6.0/Python-3.6.0.tgz
-        $ sudo tar xzf Python-3.6.0.tgz
+        $ sudo wget https://www.python.org/ftp/python/3.7.4/Python-3.7.4.tgz
+        $ sudo tar xzf Python-3.7.4.tgz
 
 3. Compile and install ``Python3``.
 
         $ sudo -s
-        $ cd /usr/src/Python-3.6.0
+        $ cd /usr/src/Python-3.7.4
         $ bash configure
         $ make altinstall
         $ exit

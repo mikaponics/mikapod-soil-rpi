@@ -5,6 +5,7 @@ nav:
     - Hardware: parts.md
     - Installation:
         - Device: installation/device.md
+        - Serial Communication: installation/serial_communication.md
         - Nameserver: installation/nameserver.md
         - Storage: installation/storage.md
         - Instruments: installation/instruments.md

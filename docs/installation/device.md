@@ -37,8 +37,8 @@ Please note these instructions were made from MacOS.
 
 9. Update the software.
 
+        $ sudo apt update
         $ sudo apt-get upgrade
-        $ sudo apt-get update
         $ sudo apt-get install libssl-dev
 
 
@@ -135,6 +135,11 @@ We want to support ``python3``.
 4. Install our generic USB library.
 
         $ sudo apt install libusb-1.0-0-dev
+
+5. Added extra.
+
+        $ sudo apt-get install python3-setuptools
+        $ sudo apt-get install python3-dbus
 
 # Setup our application
 Finally we are ready to install and setup our application!
